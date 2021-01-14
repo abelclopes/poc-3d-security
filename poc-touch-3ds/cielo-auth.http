@@ -1,0 +1,37 @@
+POST https://mpisandbox.braspag.com.br/v2/auth/token HTTP/1.1
+content-type: application/json
+
+{
+     "EstablishmentCode":"1006993069",
+     "MerchantName": "Loja Exemplo Ltda",
+     "MCC": "5912"
+}
+
+# {  
+#    "MerchantOrderId":"2017051002",
+#    "Customer":
+#    {  
+#      "EstablishmentCode":"1006993069",
+#      "MerchantName": "Loja Exemplo Ltda",
+#      "MCC": "5912"
+#    },
+#    "Payment":
+#    {  
+     
+#      "Authenticate":false,
+#      "ReturnUrl":"http://www.loja.com.br",
+#      "CreditCard":{  
+#          "CardNumber":"4000000000001000",
+#          "Holder":"Nome do Portador",
+#          "ExpirationDate":"12/2021",
+#          "SecurityCode":"123",
+#          "Brand":"Visa",
+#          "SaveCard":"false"
+#      },
+#      "ExternalAuthentication":{
+#        "Eci":"4",
+#        "ReferenceID":"a24a5d87-b1a1-4aef-a37b-2f30b91274e6",
+#        "dataonly":true
+#      }
+#    }
+# }

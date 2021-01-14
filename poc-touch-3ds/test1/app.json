@@ -1,0 +1,12 @@
+{
+  "name": "poc-touch-3ds",
+  "displayName": "poc-touch-3ds",
+  "expo": {
+    "name": "poc-touch-3ds",
+    "slug": "poc-touch-3ds",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
